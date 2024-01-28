@@ -1,3 +1,28 @@
 {
-  "cities": []
+  "cities": [
+    {
+      "cityName": "Maralal",
+      "country": "Kenya",
+      "date": "2024-01-28T17:35:25.689Z",
+      "notes": "sd",
+      "emoji": "🇰🇪",
+      "position": {
+        "lat": "1.0546279422758869",
+        "lng": "37.33154296875001"
+      },
+      "id": 1
+    },
+    {
+      "cityName": "Kajiado",
+      "country": "Kenya",
+      "date": "2024-01-28T17:35:44.971Z",
+      "notes": "bfgh",
+      "emoji": "🇰🇪",
+      "position": {
+        "lat": "-1.537901237431487",
+        "lng": "36.82617187500001"
+      },
+      "id": 2
+    }
+  ]
 }
