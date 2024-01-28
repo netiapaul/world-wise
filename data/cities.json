@@ -1,0 +1,148 @@
+{
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": 73930385
+    },
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.4169,
+        "lng": -3.7033
+      },
+      "id": 17806751
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": 98443197
+    },
+    {
+      "cityName": "Nairobi",
+      "country": "Kenya",
+      "emoji": "KE",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": -1.2864,
+        "lng": 36.8172
+      },
+      "id": 178067121
+    },
+    {
+      "cityName": "Windhoek",
+      "country": "Namibia",
+      "emoji": "NA",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": -22.57,
+        "lng": 17.0836
+      },
+      "id": 98423197
+    },
+    {
+      "cityName": "Machakos",
+      "country": "Kenya",
+      "date": "2024-01-23T13:25:01.149Z",
+      "notes": "adasdasd",
+      "emoji": "🇰🇪",
+      "position": {
+        "lat": "-0.9887204566941844",
+        "lng": "37.35105227021241"
+      },
+      "id": 178067122
+    },
+    {
+      "cityName": "Baringo",
+      "country": "Kenya",
+      "date": "2024-01-23T13:27:50.419Z",
+      "notes": "adasdsadasd",
+      "emoji": "🇰🇪",
+      "position": {
+        "lat": "1.1205340322500674",
+        "lng": "35.84005148876029"
+      },
+      "id": 178067123
+    },
+    {
+      "cityName": "Kapelebyong",
+      "country": "Uganda",
+      "date": "2024-01-23T13:33:23.084Z",
+      "notes": "asdsaasd",
+      "emoji": "🇺🇬",
+      "position": {
+        "lat": "2.218683588558448",
+        "lng": "33.774429348259865"
+      },
+      "id": 178067124
+    },
+    {
+      "cityName": "Bor",
+      "country": "South Sudan",
+      "date": "2024-01-23T13:33:23.084Z",
+      "notes": "asdsaasd",
+      "emoji": "🇸🇸",
+      "position": {
+        "lat": "6.162400921526595",
+        "lng": "31.687641177512326"
+      },
+      "id": 178067125
+    },
+    {
+      "cityName": "Lucena",
+      "country": "Spain",
+      "date": "2024-01-23T14:25:33.430Z",
+      "notes": "sdfsdfs",
+      "emoji": "🇪🇸",
+      "position": {
+        "lat": "37.37015718405753",
+        "lng": "-4.504394531250001"
+      },
+      "id": 178067126
+    },
+    {
+      "cityName": "Lucena",
+      "country": "Spain",
+      "date": "2024-01-23T14:28:31.971Z",
+      "notes": "asd",
+      "emoji": "🇪🇸",
+      "position": {
+        "lat": "37.37015718405753",
+        "lng": "-4.504394531250001"
+      },
+      "id": 178067127
+    },
+    {
+      "cityName": "Miranda do Douro",
+      "country": "Portugal",
+      "date": "2024-01-23T14:28:43.200Z",
+      "notes": "adasdzxczxczxc",
+      "emoji": "🇵🇹",
+      "position": {
+        "lat": "41.541477666790286",
+        "lng": "-6.39404296875"
+      },
+      "id": 178067128
+    }
+  ]
+}
