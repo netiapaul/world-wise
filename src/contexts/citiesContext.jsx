@@ -1,5 +1,11 @@
 /* eslint-disable react/prop-types */
-import { createContext, useContext, useEffect, useReducer } from "react";
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useReducer,
+} from "react";
 
 const BASE_URL = "http://localhost:9000";
 
@@ -85,20 +91,23 @@ function CitiesProvider({ children }) {
     FetchCities();
   }, []);
 
-  async function getCity(id) {
-    try {
-      if (Number(id) === currentCity.id) return;
-      // setIsLoading(true);
-      dispatch({ type: "loading" });
-      const res = await fetch(`${BASE_URL}/cities/${id}`);
-      const data = await res.json();
-      dispatch({ type: "cities/loaded", payload: data });
-      // setCurrentCity(data);
-    } catch (error) {
-      dispatch({ type: "rejected", payload: error });
-      console.log(error);
-    }
-  }
+  const getCity = useCallback(
+    async function getCity(id) {
+      try {
+        if (Number(id) === currentCity.id) return;
+        // setIsLoading(true);
+        dispatch({ type: "loading" });
+        const res = await fetch(`${BASE_URL}/cities/${id}`);
+        const data = await res.json();
+        dispatch({ type: "cities/loaded", payload: data });
+        // setCurrentCity(data);
+      } catch (error) {
+        dispatch({ type: "rejected", payload: error });
+        console.log(error);
+      }
+    },
+    [currentCity.id]
+  );
   async function CreateCity(newCity) {
     try {
       // setIsLoading(true);
